@@ -1,0 +1,16 @@
+@include breakpoint(laptop) {
+    .forms {
+        padding: 2% 20%;
+        .form-group {
+            align-self: center;
+            margin: 30px 0;
+            p {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+@include breakpoint(tablet) {
+}
+@include breakpoint(mobile) {
+}

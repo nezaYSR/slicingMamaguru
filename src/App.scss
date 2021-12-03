@@ -1,0 +1,16 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "sass/abstracts/variables";
+@import "sass/abstracts/mixins";
+
+@import "sass/base/base";
+@import "sass/base/typography";
+
+@import "sass/components/layouts/header";
+
+@import "sass/components/pages/home";
+@import "sass/components/pages/login";
+@import "sass/components/pages/offers";
+@import "sass/components/pages/payments";
+@import "sass/components/pages/reports";
+@import "sass/components/pages/settings";

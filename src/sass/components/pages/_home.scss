@@ -1,0 +1,27 @@
+@include breakpoint(laptop) {
+    .welcome {
+        padding: 20%;
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        .images {
+            display: flex;
+            // margin-top: 50px;
+            :nth-child(1) {
+                margin-top: 20px;
+                height: 350px;
+            }
+            :nth-child(2) {
+                margin-top: 150px;
+                height: 450px;
+            }
+        }
+    }
+}
+@include breakpoint(tablet) {
+}
+@include breakpoint(mobile) {
+}

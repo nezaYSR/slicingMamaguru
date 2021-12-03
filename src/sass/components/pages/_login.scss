@@ -1,0 +1,19 @@
+@include breakpoint(laptop) {
+    .form {
+        padding: 10% 30%;
+        .welcome-word {
+            margin: 50px 0;
+        }
+        .form-child {
+            margin-top: 20px;
+        }
+        .btn-form {
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+}
+@include breakpoint(tablet) {
+}
+@include breakpoint(mobile) {
+}
